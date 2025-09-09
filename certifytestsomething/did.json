@@ -1,1 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs",
+  "alsoKnownAs": [],
+  "service": [],
+  "assertionMethod": [
+    "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs#key-0"
+  ],
+  "authentication": [
+    "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs#key-0"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs#key-0",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "pP3z9z_W0HwZ1X8lvPImXYpjcOeW5YHh8bbf_s3H2mQ"
+      }
+    }
+  ]
+}
 
