@@ -3,20 +3,20 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs",
+  "id": "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json",
   "alsoKnownAs": [],
   "service": [],
   "assertionMethod": [
-    "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs#key-0"
+    "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json#key-0"
   ],
   "authentication": [
-    "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs#key-0"
+    "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json#key-0"
   ],
   "verificationMethod": [
     {
-      "id": "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs#key-0",
+      "id": "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json#key-0",
       "type": "JsonWebKey2020",
-      "controller": "did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs",
+      "controller": "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -25,4 +25,3 @@
     }
   ]
 }
-
