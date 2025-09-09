@@ -3,20 +3,20 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json",
+  "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
   "alsoKnownAs": [],
   "service": [],
   "assertionMethod": [
-    "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json#key-0"
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-0"
   ],
   "authentication": [
-    "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json#key-0"
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-0"
   ],
   "verificationMethod": [
     {
-      "id": "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json#key-0",
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-0",
       "type": "JsonWebKey2020",
-      "controller": "did:web:github.com:gopalaswin:certify_test:gh-pages:certifytestsomething:did.json",
+      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
