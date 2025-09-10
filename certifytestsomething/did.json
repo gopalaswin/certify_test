@@ -1,9 +1,27 @@
 {
-  "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-0",
-  "type": "JsonWebKey2020",
-  "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
-  "publicKeyJwk": {
-    "kty": "OKP",
-    "crv": "Ed25519",
-    "x": "Fy3lMapzR3wpaYNCFq29GDEn_NoR3pBsc511q1Cxqw"
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:hegdenitin.github.io:certifytest:certifytestsomething",
+  "verificationMethod": [
+    {
+      "id": "did:web:hegdenitin.github.io:certifytest:certifytestsomething#keys-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:hegdenitin.github.io:certifytest:certifytestsomething",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "IKXhA7W1HD1sAl-OfG59VKAqciWrrOL1Rw5F-PGLhi4",
+        "kid": "99Jvp2IaBM1CsihTZ_PytT047IinFJbGfPDCI-rqq3s"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:hegdenitin.github.io:certifytest:certifytestsomething#keys-1"
+  ],
+  "assertionMethod": [
+    "did:web:hegdenitin.github.io:certifytest:certifytestsomething#keys-1"
+  ],
+  "service": [],
+  "alsoKnownAs": []
 }
