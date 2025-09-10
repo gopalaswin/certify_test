@@ -1,27 +1,9 @@
 {
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
-  ],
-  "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
-  "alsoKnownAs": [],
-  "service": [],
-  "assertionMethod": [
-    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-0"
-  ],
-  "authentication": [
-    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-0"
-  ],
-  "verificationMethod": [
-    {
-      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-0",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
-      "publicKeyJwk": {
-        "kty": "OKP",
-        "crv": "Ed25519",
-        "x": "pP3z9z_W0HwZ1X8lvPImXYpjcOeW5YHh8bbf_s3H2mQ"
-      }
-    }
-  ]
+  "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-0",
+  "type": "JsonWebKey2020",
+  "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
+  "publicKeyJwk": {
+    "kty": "OKP",
+    "crv": "Ed25519",
+    "x": "Fy3lMapzR3wpaYNCFq29GDEn_NoR3pBsc511q1Cxqw"
 }
