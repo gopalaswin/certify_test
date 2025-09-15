@@ -6,8 +6,7 @@
   "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
   "verificationMethod": [
     {
-      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#keys-1",
-      "type": "Ed25519VerificationKey2020",
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#keys-1",  
       "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
       "publicKeyMultibase": "z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt"
     }
