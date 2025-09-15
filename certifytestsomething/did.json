@@ -3,19 +3,19 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
-  "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
+  "id": "did:peer:0z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt",
   "verificationMethod": [
     {
-      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#keys-1",
+      "id": "did:peer:0z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt#keys-1",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
+      "controller": "did:peer:0z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt",
       "publicKeyMultibase": "z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt"
     }
   ],
   "authentication": [
-    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#keys-1"
+    "did:peer:0z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt#keys-1"
   ],
   "assertionMethod": [
-    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#keys-1"
+    "did:peer:0z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt#keys-1"
   ]
 }
