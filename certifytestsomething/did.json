@@ -6,15 +6,44 @@
   "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
   "verificationMethod": [
     {
-      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#keys-1",  
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
+      "type": "Ed25519VerificationKey2020",
       "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
-      "publicKeyMultibase": "z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt"
+      "publicKeyHex": "6e5789fb4b5a971ac5cd7106d5e9c98f298ef906e8735094957fdc442d8b62f5"
+    },
+    {
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-2",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
+      "publicKeyMultibase": "multibase_key"
+    },
+    {
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-3",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "bleJ-0talxrFzXEG1enJjymO-Qboc1CUlX_cRC2LYvU",
+        "alg": "EdDSA",
+        "key_ops": [
+          "verify"
+        ],
+        "kid": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
+        "use": "sig"
+      }
+    },
+    {
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-4",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAbleJ+0talxrFzXEG1enJjymO+Qboc1CUlX/cRC2LYvU=\n-----END PUBLIC KEY-----\n"
     }
   ],
-  "authentication": [
-    "did:peer:0z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt#keys-1"
-  ],
   "assertionMethod": [
-    "did:peer:0z8RjGU7e6YacZZryBq5bYHJAofQB6u8SckwGndtGqWrQt#keys-1"
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-2",
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-3",
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-4"
   ]
 }
