@@ -5,22 +5,6 @@
   ],
   "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
   "verificationMethod": [
-    {
-      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
-      "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
-      "publicKeyHex": "6e5789fb4b5a971ac5cd7106d5e9c98f298ef906e8735094957fdc442d8b62f5"
-    },
-    {
-      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-2",
-      "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
-      "publicKeyMultibase": "multibase_key"
-    },
-    {
-      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-3",
-      "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
