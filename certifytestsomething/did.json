@@ -17,8 +17,7 @@
             "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
             "publicKeyMultibase": "multibase_key"
         },
-        {
-            "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-3",
+        {       
             "type": "Ed25519VerificationKey2020",
             "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
             "publicKeyJwk": {
