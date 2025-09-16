@@ -3,24 +3,24 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
-  "id": "did:web:KiruthikaJeyashankar.github.io:did",
+  "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
   "verificationMethod": [
     {
-      "id": "did:web:KiruthikaJeyashankar.github.io:did#key-1",
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:KiruthikaJeyashankar.github.io:did",
+      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
       "publicKeyHex": "6c5f1d68c9d07d6125e2f5c5fcbb2ad7029887f81c2c3176cca750cb724fbcc1"
     },
     {
-      "id": "did:web:KiruthikaJeyashankar.github.io:did#key-2",
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-2",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:KiruthikaJeyashankar.github.io:did",
+      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
       "publicKeyMultibase": "multibase_key"
     },
     {
-      "id": "did:web:KiruthikaJeyashankar.github.io:did#key-3",
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-3",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:KiruthikaJeyashankar.github.io:did",
+      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -29,21 +29,21 @@
         "key_ops": [
           "verify"
         ],
-        "kid": "did:web:KiruthikaJeyashankar.github.io:did#key-1",
+        "kid": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
         "use": "sig"
       }
     },
     {
-      "id": "did:web:KiruthikaJeyashankar.github.io:did#key-4",
+      "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-4",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:KiruthikaJeyashankar.github.io:did",
+      "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
       "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAbF8daMnQfWEl4vXF/Lsq1wKYh/gcLDF2zKdQy3JPvME=\n-----END PUBLIC KEY-----\n"
     }
   ],
   "assertionMethod": [
-    "did:web:KiruthikaJeyashankar.github.io:did#key-1",
-    "did:web:KiruthikaJeyashankar.github.io:did#key-2",
-    "did:web:KiruthikaJeyashankar.github.io:did#key-3",
-    "did:web:KiruthikaJeyashankar.github.io:did#key-4"
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-2",
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-3",
+    "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-4"
   ]
 }
