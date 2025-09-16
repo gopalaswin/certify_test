@@ -6,26 +6,8 @@
     "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
     "verificationMethod": [
         {
-            "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
-            "type": "JsonWebKey2020",
-            "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
-            "publicKeyJwk": {
-                "kty": "OKP",
-                "crv": "Ed25519",
-                "x": "bleJ-0talxrFzXEG1enJjymO-Qboc1CUlX_cRC2LYvU",
-                "alg": "EdDSA",
-                "key_ops": [
-                    "verify"
-                ],
-                "kid": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
-                "use": "sig"
-            }
-        },
-        {
-            "id": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-4",
-            "type": "Ed25519VerificationKey2020",
-            "controller": "did:web:gopalaswin.github.io:certify_test:certifytestsomething",
-            "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAbleJ+0talxrFzXEG1enJjymO+Qboc1CUlX/cRC2LYvU=\n-----END PUBLIC KEY-----\n"
+            "kid": "did:web:gopalaswin.github.io:certify_test:certifytestsomething#key-1",
+            "use": "sig"
         }
     ],
     "assertionMethod": [
